@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    parsed_emails = @emails.split(/[,\s]/)
+    parsed_emails = @emails.split(/[\,\s]/)
     parsed_emails.map {|email| email.strip}
   end
 
