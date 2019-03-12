@@ -13,8 +13,6 @@ class EmailParser
 
   def parse
     parsed_emails = @emails.split(/[\,\s]/).reject{|e| e == ""}
-    #parsed_emails.map {|email| email.strip}
-    binding.pry
   end
 
 end
